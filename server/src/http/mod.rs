@@ -4,9 +4,11 @@ pub use request::ParseError;
 pub use request::Request;
 pub use response::Response;
 pub use status_code::StatusCode;
+pub use header::Header;
 
 pub mod method;
 pub mod query_string;
 pub mod request;
 pub mod response;
 pub mod status_code;
+pub mod header;
